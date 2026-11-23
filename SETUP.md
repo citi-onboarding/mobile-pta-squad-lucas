@@ -55,7 +55,7 @@ not in the deletion.
 ## 5. Infrastructure
 
 - [ ] Confirm `.github/workflows/ci.yml` triggers on the branch your team actually uses
-- [ ] Enable branch protection on `develop`, marking the `quality` job
+- [x] Enable branch protection on `develop`, marking the `quality` job
       (`Format, verify, and test`) as required
 - [ ] `cp .env.example .env` and point `EXPO_PUBLIC_API_URL` at your own API
 - [ ] Add any new variable to `.env.example` too — it is the only list of them
