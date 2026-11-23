@@ -68,13 +68,6 @@ component.
 
 ## GitHub repository settings
 
-### Branch protection or rulesets
-
-Configured. `develop` accepts changes only through pull requests with at least
-one approval and the required check `Format, verify, and test`. Force pushes and
-branch deletion are blocked, and the rules apply to administrators. Protect
-`main` the same way if the project starts using it.
-
 ### CodeQL default setup
 
 Enable GitHub CodeQL default setup for JavaScript and TypeScript when the

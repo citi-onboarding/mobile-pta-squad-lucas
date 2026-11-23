@@ -82,6 +82,14 @@ S<sprint>-<task>-<short-description>
 S1-03-cliente-erp
 ```
 
+Work without a Docudata task, such as repository setup or tooling chores, uses
+`chore/<short-description>` instead, for example `chore/branch-protection-docs`.
+
+`develop` is protected: changes land only through pull requests with at least
+one approval and the required check `Format, verify, and test`. Force pushes and
+branch deletion are blocked, and the rules apply to administrators. Protect
+`main` the same way if the project starts using it.
+
 Keep commits small enough to review and use Conventional Commits with a subject
 that explains the outcome.
 

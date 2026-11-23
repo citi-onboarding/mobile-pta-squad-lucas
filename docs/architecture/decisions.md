@@ -78,8 +78,8 @@ born with different dependency trees — and only one of them was ever tested by
 human.
 
 The trade-off is a real cost: **without a review at every SDK release the
-boilerplate freezes**. The `expo-doctor` job in CI makes that aging visible
-instead of silent. If nobody owns the maintenance, the honest move is to revert
+boilerplate freezes**. Running `pnpm run doctor` when upgrading dependencies
+(D19) makes that aging visible instead of silent. If nobody owns the maintenance, the honest move is to revert
 this decision and go back to ranges, not to pretend the ritual happens.
 
 **Trigger:** every Expo SDK release.
