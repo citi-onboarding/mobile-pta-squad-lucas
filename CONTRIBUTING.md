@@ -74,8 +74,16 @@ propagate the change to all of them.
 ## Branches and commits
 
 The integration branch is `develop`. Create a focused branch from `develop` and
-open the pull request against `develop`. Keep commits small enough to review
-and use Conventional Commits with a subject that explains the outcome.
+open the pull request against `develop`. Name the branch after the task code,
+followed by a short kebab-case description:
+
+```text
+S<sprint>-<task>-<short-description>
+S1-03-cliente-erp
+```
+
+Keep commits small enough to review and use Conventional Commits with a subject
+that explains the outcome.
 
 Do not mix formatting-only changes, dependency upgrades, and unrelated product
 behavior in the same pull request.
@@ -140,7 +148,9 @@ boilerplate-level decision changes.
 
 Complete the pull request template with:
 
-- A concise problem and solution summary
+- What the change does
+- A risk the author sees
+- How AI was used, required for level 3 and level 5 tasks
 - OpenSpec, TDD, and documentation evidence
 - Impact, including platforms and whether a new native build is required
 - Screenshots for visual changes
