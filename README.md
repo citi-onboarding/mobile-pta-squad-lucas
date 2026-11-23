@@ -113,6 +113,13 @@ a basic check on every pull request (formatting and `pnpm verify`: typecheck,
 lint, tests, OpenSpec, skills). Export, audit, and `expo-doctor` run locally. See
 [CONTRIBUTING.md](CONTRIBUTING.md).
 
+Name the branch after the task code, followed by a short kebab-case description:
+
+```text
+S<sprint>-<task>-<short-description>
+S1-03-cliente-erp
+```
+
 ## License
 
 See [LICENSE](LICENSE).
