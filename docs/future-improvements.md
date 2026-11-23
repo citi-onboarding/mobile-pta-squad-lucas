@@ -70,9 +70,10 @@ component.
 
 ### Branch protection or rulesets
 
-Protect `develop` (and `main`, when used) with required pull requests and the
-required checks `Format, lint, types, specs, skills, coverage, and export` and
-`expo-doctor`, blocked force pushes, and at least one approval.
+Configured. `develop` accepts changes only through pull requests with at least
+one approval and the required check `Format, verify, and test`. Force pushes and
+branch deletion are blocked, and the rules apply to administrators. Protect
+`main` the same way if the project starts using it.
 
 ### CodeQL default setup
 

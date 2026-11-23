@@ -153,7 +153,7 @@ Complete the pull request template with:
 - How AI was used, required for level 3 and level 5 tasks
 - OpenSpec, TDD, and documentation evidence
 - Impact, including platforms and whether a new native build is required
-- Screenshots for visual changes
+- How to test the change
 - The verification commands that actually ran
 
 Keep the lockfile and documentation synchronized with the implementation. CI
