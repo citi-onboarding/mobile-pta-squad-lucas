@@ -88,8 +88,9 @@ Work without a Docudata task, such as repository setup or tooling chores, uses
 `develop` is protected: changes land only through pull requests that pass the
 required check `Format, verify, and test` and are approved by a code owner
 listed in [`.github/CODEOWNERS`](.github/CODEOWNERS). Force pushes and branch
-deletion are blocked, and the rules apply to administrators. Protect `main` the
-same way if the project starts using it.
+deletion are blocked. Repository administrators (the squad manager) may merge
+without a code-owner approval with `gh pr merge --admin`, and only after the
+required check passes. Protect `main` the same way if the project starts using it.
 
 Keep commits small enough to review and use Conventional Commits with a subject
 that explains the outcome.
